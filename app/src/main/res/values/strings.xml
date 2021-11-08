@@ -3,4 +3,5 @@
     <string name="enter_name">Enter Your Name:</string>
     <string name="name_hint">Name</string>
     <string name="greeting">Greeting</string>
+    <string name="enter_lastname">Enter Your Lastname</string>
 </resources>

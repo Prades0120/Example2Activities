@@ -14,10 +14,15 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.button)
 
         button.setOnClickListener {
-            val edit = findViewById<EditText>(R.id.editTextName)
-            val name = edit.text.toString()
+            val editName = findViewById<EditText>(R.id.editTextName)
+            val name = editName.text.toString()
+            val editLastname = findViewById<EditText>(R.id.editTextLastname)
+            val lastname = editLastname.text.toString()
+
             val intent = Intent(applicationContext, GreetingActivity::class.java)
             intent.putExtra("name",name)
+            intent.putExtra("lastname", lastname)
+
             startActivity(intent)
         }
     }
