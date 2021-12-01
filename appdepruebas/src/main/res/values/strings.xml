@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">appDePruebas</string>
+    <string name="boton_prueba">Boton prueba</string>
+    <string name="clic1">clic1</string>
+    <string name="clic2">clic2</string>
+    <string name="clic3">clic3</string>
+    <string name="ios">iOS</string>
+    <string name="interruptor">Interruptor</string>
+    <string name="opcion2">opcion2</string>
+    <string name="opcion1">opcion1</string>
+    <string name="android">Android</string>
+    <string name="togglebutton">ToggleButton</string>
+    <string name="todo">TODO</string>
+    <string name="texto_negrita">Texto Negrita</string>
+    <string name="texto_cursiva">Texto Cursiva</string>
+    <string name="texto_plano">Texto Plano</string>
+    <string name="edit_text">Edit Text</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO2</string>
 </resources>
